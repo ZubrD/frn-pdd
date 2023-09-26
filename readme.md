@@ -3,9 +3,5 @@
 
 ## Ссылки на презентации по проекту
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Что на главной странице?](https://img.youtube.com/vi/qG2M2BCItdw/sddefault.jpg)](https://www.youtube.com/watch?v=qG2M2BCItdw)
 
