@@ -3,5 +3,5 @@
 
 ## Ссылки на презентации по проекту
 
-[![Что на главной странице?](https://img.youtube.com/vi/qG2M2BCItdw/sddefault.jpg)](https://www.youtube.com/watch?v=qG2M2BCItdw)
+[![Что на главной странице?]](https://www.youtube.com/watch?v=qG2M2BCItdw)
 
