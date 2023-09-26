@@ -3,5 +3,5 @@
 
 ## Ссылки на презентации по проекту
 
-![Что на главной странице?](https://www.youtube.com/watch?v=qG2M2BCItdw)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qG2M2BCItdw/0.jpg)](https://www.youtube.com/watch?v=qG2M2BCItdw)
 
