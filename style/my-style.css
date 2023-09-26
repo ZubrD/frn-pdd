@@ -1,0 +1,796 @@
+#main-container {
+    /*min-width: 1400px;*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#map, #map-search, #map-carnumer {
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+
+#page-start {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+#page-registr, #renewal-login {
+    padding: 20px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 810px;
+    width: 460px;
+}
+
+/*.page-registr-normal {
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    width: 400px;
+}*/
+
+/*.page-registr-error {
+    left: 786px;
+    width: 552px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50px;
+}*/
+
+#registr-login, #registr-parol, #registr-reparol, #registr-email {
+    width: 246px;
+}
+
+#verify-login, #verify-parol, #verify-reparol, #verify-email, #verify-renewal {
+    font-size: 80%;
+    color: red;
+}
+
+#forget-login {
+    display: inline-block;
+    font-size: 80%;
+    margin-left: 10px;
+}
+
+#return-to-choice {
+    background-color: yellow;
+    width: 175px;
+    height: 60px;
+    color: brown;
+    font-size: 150%;
+    display: none;
+}
+
+#container-return {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+#map {
+/*    position: relative;
+    top: -144px;
+    left: 682px;*/
+}
+
+#table-core td {
+    vertical-align: top;
+}
+
+#map-town {         /*Карта на стартовой странице*/
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+
+#page-search{
+    display: none;
+}
+
+/*#page-searchh, #container-map-town {
+    min-width: 1400px;
+}*/
+
+#table-result-search, #table-carnumer {
+    border-collapse: collapse;
+}
+
+#table-result-search td, #table-carnumer td{
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#page-insert, #page-search, #login, #button-logout, #cabinet, #button-cabinet {
+    display: none;
+}
+
+.testclass {
+    margin-left: 402px;
+}
+
+.classmouseover {
+    background-color: red;
+    color: gold;
+}
+
+#proved_sum tr td {
+    text-align: center;
+}
+
+.proved_unvisible {
+    color: white;
+}
+
+#button-proved-yes, #button-proved-no, #button-proved-bad {
+    width: 100px;
+}
+
+.yes, .bad, .return_yes, .return_bad {
+    width: 100px;
+}
+
+.return_yes {
+    background-color: green;
+}
+
+.return_bad {
+    background-color: red;
+}
+
+#span-top-cases, #span-top-sum, #span-top-dec, #span-top-viol, #span-seven-dec, #span-seven-viol {
+    color: red;
+}
+
+#span-currency {
+    color: black;
+}
+
+.verify-case {
+    background-color: red;
+}
+
+.proved-class-yes, .proved-class-bad, .proved-class-no {
+    width: 50px;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.proved-class-yes {
+    background-color: greenyellow;
+}
+
+.proved-class-bad {
+    background-color: red;
+}
+
+.proved-class-no {
+    background-color: lightgray;
+}
+
+.popup-container, #container-comment-in-cabinet {
+    width: 350px;
+    height: 300px;
+    position: fixed;
+    top: 147px;
+    left: 530px;
+    background-color: lightgray;
+    box-shadow: 19px 18px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-send-comment {
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.popup-send-comment, .remove-popup {
+    width: 80px;
+}
+
+.popup-comment-title {
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.text-comment {
+    margin-top: 10px;
+    margin-left: 23px;
+    width: 300px;
+    height: 100px;
+}
+
+#container-title-in-cabinet {   /*Заголовок блока показа комментариев в кабинете*/
+    height: 50px;
+    margin: 10px 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+#container-next-in-cabinet {    /*Блок непосредственно текста комментариев в кабинете*/
+    height: 180px;
+    overflow: auto;
+    margin: 0 10px;
+}
+
+.next-title-in-cabinet {    /*Заголовок каждого комментария (логин пользователя, оставившего комментарий)*/
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+
+.next-comment-in-cabinet {  /*Текст каждого комментария в блоке комментариев в кабинете*/
+    margin: 0 10px;
+}
+
+.close-comments {           /*Закрытие блока комментариев*/
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+
+#end-moder, #continue-moder {   /*Баттон завершения и продолжения одобрения (moder.js)*/
+    width: 85px;
+}
+
+.div-violation {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+#ban-insert {                   /*Уведомление о запрете вставки при наведении мыши на кноп "Вставить"*/
+    background-color: darkgray;
+    height: 500px;
+    left: 307px;
+    position: absolute;
+    top: 88px;
+    width: 800px;
+}
+
+#button-ban-insert {            /*Кноп для уведомления о запрете вставки*/
+    font-size: 150%;
+    height: 52px;
+    left: 341px;
+    position: relative;
+    width: 156px;
+}
+
+#text-ban-insert {              /*Текст уведомления о запрете вставки*/
+    font-size: 405%;
+    margin: 40px 30px;
+    text-align: center;
+}
+
+#text-ban-insert span {
+    color: darkred;
+}
+
+.finger-down, .finger-up {
+    width: 17px;
+    height: 18px;
+    cursor: pointer;
+}
+
+#finger-up-prove, #finger-down-prove {
+    position: absolute;
+    top: 182px;
+    left: 550px;
+    width: 400px;
+    height: 150px;
+    background-color: #c9c8c8;
+}
+
+#finger-up-yes, #finger-down-yes {
+    margin-top: 41px;
+    margin-left: 140px;
+}
+
+#finger-up-no, #finger-down-no {
+    margin-left: 30px;
+}
+
+#finger-up-title, #finger-down-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#finger-up-title span {
+    font-size: 130%;
+    color: green;
+}
+
+#finger-down-title span {
+    font-size: 130%;
+    color: red;
+}
+
+.img-comment {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.red-sq, .green-sq {            /*При загрузке квадраты оценки не видны*/
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+.white-sq {
+    display: none;
+    width: 111px;
+    height: 18px;
+    position: relative;
+    left: -193px;
+    top: 1px;
+    z-index: 5;
+    opacity: 0.7;             /*Полностью прозрачный, чтобы была видна сквозь него картинка пальца*/
+    margin: 0;
+    padding: 0;
+}
+
+.grades-yes, .grades-no {       /*Суммарные положительные и отрицательные оценки видео*/
+    display: none;
+}
+
+.grades-yes {                   /*Цвет положительной оценки*/
+    color: green;
+}
+
+.grades-no {                    /*Цвет отрицательной оценки*/
+    color: red;
+}
+
+#my-location {                  /*Окно для вывода местоположения клиента*/
+/*    background-color: darkgray;
+    height: 200px;
+    left: 311px;
+    overflow: auto;
+    position: fixed;
+    top: 154px;
+    width: 753px;*/
+    display: none;
+}
+
+#location-table {
+    display: none;
+}
+
+#container-purpose-town, #container-stat {       /*Выбор города*/
+    background-color: darkorange;
+    height: 200px;
+    left: 395px;
+    position: absolute;
+    top: 160px;
+    width: 597px;
+}
+
+#container-stat {
+    overflow: auto;
+}
+
+#container-stat table tr:first-child {
+    font-size: 130%;
+}
+
+#container-stat table td {
+    padding: 0 10px;
+}
+
+#container-stat table td:nth-child(2), #container-stat table td:nth-child(3) {
+    text-align: center;
+}
+
+#text-purpose-town, #text-purpose-another-town {                /*Заголовок окна выбора города*/
+    text-align: center;
+    font-size: 300%;
+    color: brown;
+    padding-top: 15px;
+}
+
+#text-purpose-town {
+    padding-bottom: 70px;
+}
+
+#div-text {
+    height: 90px;
+}
+
+#container-purpose-town button {    /*Кнопы выбора базового для пользователя города*/
+    height: 40px;
+}
+
+#button-purpose-town-yes {
+    margin-left: 30px;
+    width: 100px;
+}
+
+#text-another-town {                /*Заголовок выбора базового города*/
+    display: none;
+}
+
+#select-my-town {                   /*Список выбора базового города*/
+    display: none;
+}
+
+#button-another-town-yes {
+    margin-left: 30px;
+    width: 100px;
+}
+
+#button-another-town-no {
+    width: 100px
+}
+
+#table-town-violations {
+    width: 485px;
+}
+
+#table-town-violations td {
+    padding: 0 15px;
+}
+
+.button-my-town-filter {    /*Кноп фильтрации типа нарушения на главной странице*/
+    width: 72px;
+    background-color: lightgreen;
+}
+
+button {
+    cursor: pointer;
+}
+
+#top-info {
+    text-align: center;
+}
+
+#top-info table {
+    margin: 0 auto;
+}
+
+#site-title {
+    font-size: 200%;
+    color: lightgray;
+}
+
+#total-violation {
+    margin-top: 20px;
+    font-size: 130%;
+}
+
+#total-penalty {
+    /*margin-bottom: 20px;*/
+    font-size: 120%;
+}
+
+#last-seven {
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+#top-search {
+    text-align: center;
+}
+
+#table-carnumer-top-search {
+    margin: 0 auto;
+}
+
+#table-carnumer-top-search td {
+    width: 200px;
+}
+
+#text-carnumer-top-search {
+    color: red;
+}
+
+#input-carnumer-top-search {
+    width: 194px;
+    height: 50px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#span-carnumer-top-search {
+    font-size: 150%;
+}
+
+#span-carnumer-table-town {
+    font-size: 130%;
+    color: lightgray;
+}
+
+.disabled {
+    pointer-events: none;
+    text-decoration: none;
+    color: #999;
+}
+
+.search-headline {
+    color: lightgray;
+    font-size: 115%;
+}
+
+.span-link-pages {
+    padding: 0 10px 0 10px;
+}
+
+.span-link-pages-pushed {
+    text-decoration: none;
+    background-color: lightgray;
+}
+
+.cabinet-first-record {
+    position: absolute;
+    background-color: yellow;
+    width: 223px;
+    height: 109px;
+    color: brown;
+    font-size: 150%;
+    top: 213px;
+    left: 571px;
+}
+
+#car-numer-search, .datepicker-search {
+    width: 75px;
+}
+
+.timepicker-search, #times, #select-times {
+    width: 40px;
+}
+
+#label-carnumer-search, #label-time-search {
+    margin-left: 20px;
+}
+
+.picker-notformat {
+    color: red;
+}
+
+.selected-row {     /*Выделение цветом строки таблицы, в которой была нажата ссылка*/
+    background-color: lightgray;
+    border-collapse: collapse;
+}
+
+#table-another-town {
+    width: 100%;
+}
+
+#first-column {     /*Первый столбец таблицы выбора другого города. Через id лучше, чем через first-child*/
+    width: 0;
+}
+
+#help {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 150%;
+}
+
+#container-help, #container-registr, #container-message, #instead-alert, #admin-container, #container-7-detailed, #container-report-detailed {
+    position: absolute;
+    top: 50px;
+    height: 550px;
+    background-color: lightgray;
+}
+
+#sended-comment {
+    position: absolute;
+    top: 100px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+#sended-comment h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#span-sended {
+    text-align: center;
+    margin: 0;
+}
+
+.text-sended {
+    margin-left: 10px;
+}
+
+#sended-comment button {
+    display: block;
+    margin: 0 auto;
+}
+
+#instead-alert {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#instead-alert-text {
+    text-align: center;
+    font-size: 200%;
+    color: red;
+    margin-top: 40px;
+}
+
+#close-instead-alert {
+    display: block;
+    margin: 40px auto 0;
+}
+
+#container-help {
+    overflow: auto;
+    z-index: 5;
+}
+
+#main-level, #title-message, #title-admin {
+    text-align: center;
+    font-size: 200%;
+    color: brown;
+    margin-top: 20px;
+}
+
+.level-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 180%;
+    color: brown;
+}
+
+.level-1 a {
+    text-decoration: none;
+}
+
+.level-2 {
+    margin-left: 50px;
+    font-size: 60%;
+    color: brown;
+}
+
+.close-help, .back-help, #close-7-detailed, #close-report-detailed {
+    position: absolute;
+    width: 7%;
+    height: 8%;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#close-report-detailed {
+    width: 6%;
+    height: 8%;
+}
+
+.back-help {
+    right: 39px;
+    top: 3px;
+    width: 35px;
+    height: 35px;
+}
+
+.help-video {
+    margin-top: 35px;
+    width: 600px;
+    height: 350px;
+}
+
+.level-3 {
+    margin-top: 40px;
+    color: brown;
+    font-size: 170%;
+    text-align: center;
+}
+
+.tip {
+    position: absolute;
+    width: 150px;
+    background-color: #fffdcf;
+    z-index: 100;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.delete-tip {
+    font-size: 80%;
+}
+
+#form-message, #form-complex-message, #form-admin-search {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#email-gibdd, #id-message-gibdd {
+    font-size: 130%;
+}
+
+#form-message label, #id-message-gibdd label {
+    font-size: 120%;
+    margin-right: 30px;
+}
+
+#id-message-gibdd {
+    margin-bottom: 15px;
+}
+
+#text-message {
+    width: 530px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+#message-to-gibdd {
+    width: 550px;
+    height: 390px;
+}
+
+#orientir {
+    width: 327px;
+}
+
+#reporter-declare {
+    width: 500px;
+    height: 100px;
+}
+
+#fio-reporter, #google-disk {
+    width: 300px;
+}
+
+#h3-guilty {
+    color: red;
+}
+
+#h3-unguilty {
+    color: green;
+}
+
+#div-7-detailed, #report-detailed {
+    display: inline;
+    padding-left: 20px;
+}
+
+#container-7-detailed, #container-report-detailed {
+    overflow: auto;
+}
+
+#container-7-detailed h3, #container-report-detailed h3 {
+    text-align: center;
+}
+
+#table-7-detailed td {
+    padding: 0 5px 0 5px;
+}
+
+#table-7-detailed-head {
+    font-size: 80%;
+}
+
+#table-report-detailed td {
+    padding: 0 5px 0 5px;
+}
+
+#table-report-detailed td:not(:first-child) {
+    text-align: center;
+}
+
+#table-report-detailed td:nth-child(2) {
+    font-weight: bold;
+}
+
+#table-report-detailed tr:first-child {
+    font-style: italic;
+}
+
+#table-report-detailed img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#loadImg {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}

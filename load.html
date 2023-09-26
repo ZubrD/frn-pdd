@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf8" />
+    <title>Image Upload</title>
+    <script src="scripts/jquery-1.6.2.min.js"></script>
+    <script src="scripts/my_script.js"></script>
+</head>
+<body>
+<form action="server/upload-images.php" method="post" enctype="multipart/form-data"  id="formupload">
+    <input type="file" name="file" id="fileupload" />
+    <input type="hidden" name="region" id="region" value="12345" />
+    <button>Загрузить</button>
+</form>
+</body>
+</html>
